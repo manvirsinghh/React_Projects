@@ -1,0 +1,99 @@
+.blog-page-wrapper {
+    font-family: 'Syne', sans-serif;
+    color: #fff;
+    background-color: #000;
+    min-height: 100vh;
+    padding: 40px; 
+  }
+  .post-image img {
+    width: 100px; 
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -300px;
+    margin-bottom: 40px;
+
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .header a svg {
+    margin-left: 8px;
+    font-size: 20px;
+  }
+  
+  .post-wrapper {
+    margin-bottom: 40px;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .post-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .post-header p {
+    font-size: 16px;
+    font-weight: 500;
+
+  }
+  .button{
+    position: absolute;
+    top:50;
+    right: 15px;;
+    transform: translateY(-50%);
+  }
+  .btn{
+    padding: 16px 32px;
+    border-radius: 100px;
+    
+  }
+  
+  .tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-left: 220px;
+    margin-top: -70px;
+  }
+  
+  .tags-wrapper span {
+    background-color: transparent;
+    padding: 8px 16px;
+    border:1px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+   
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
+  

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Reset everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Container Styling */
+.container {
+  background-color: #000000;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+/* Optional: Remove margin from first heading */
+.container h3 {
+  margin-top: 0 !important;
+}
+
+/* FAQ Styles */
+.ques {
+  font-family: 'Syne', sans-serif;
+  margin-top: 20px;
+}
+
+.ans {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+}

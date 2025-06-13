@@ -1,0 +1,18 @@
+.heading{
+  color:  #010208;
+}
+.box{
+    background-color: #010208;
+    padding: 10px;
+   
+}
+.desktop{
+    font-family: Syne;
+    font-weight: 800px;
+    size: 64px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+
+    
+}
